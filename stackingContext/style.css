@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.child-1 {
+    height: 30%;
+    background-color: cadetblue;
+    border-bottom: 4px solid black;
+    box-shadow: 0px 4px 4px rebeccapurple;
+    z-index: 1;
+}
+
+.child-2 {
+    height: 70%;
+    background-color: burlywood;
+}
